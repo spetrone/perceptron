@@ -25,7 +25,7 @@ public class Main {
 		//First round of training
 		System.out.println("\n\n-----------------------------");
 		System.out.println("Now Training...");
-		trainTest.train();
+		trainTest.train(); //stochastic gradient descent
 		System.out.println("\n...trained 1000 epochs...");
 		
 		currentError = trainTest.calculateAverageError();

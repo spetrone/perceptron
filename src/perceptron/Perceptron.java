@@ -11,8 +11,8 @@ import java.util.Random;
  * (4) Calculates the output of a given set of inputs
  * 
  * The perceptron has three inputs (sensor 1, sensor2, sensor 3) 
- * and one output (alarm). All values are boolean where 1 is on 
- * and 0 is off. 
+ * and one output (alarm). All values are boolean where 1 is real 
+ * and 0 is fake. 
  */
 
 public class Perceptron {

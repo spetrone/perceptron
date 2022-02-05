@@ -3,7 +3,7 @@ package perceptron;
  * This class performs the training of a perceptron with a given
  * training dataset. It utilize the Forward_Propogation class during 
  * each iteration. It does this through stochastic gradient descent whereby
- * each training example is forward propogated through the perceptron, and then
+ * each training example is fed forward through the perceptron, and then
  * for each training example, backpropogation is done through the perceptron
  * and the weights are then updated. This is done for each training example, which
  * makes up one epoch. It is run for 1000 epochs.
